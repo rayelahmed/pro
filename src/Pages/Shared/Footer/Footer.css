@@ -1,0 +1,25 @@
+.footer-section ul {
+  gap: 14px;
+  padding-left: 0 !important;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.footer-section li a {
+  font-size: 32px;
+  color: #94a3b8;
+  transition: ease-in-out 0.18s;
+}
+
+.footer-section li:hover a {
+  color: #e2e8f0;
+}
+
+@media screen and (max-width: 640px) {
+  .footer-section {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

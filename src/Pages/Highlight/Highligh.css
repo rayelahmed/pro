@@ -1,0 +1,52 @@
+.h-project {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 20px;
+  transition: ease-in-out 0.3s;
+  width: 100%;
+  max-width: 576px;
+}
+
+.h-project:hover {
+  padding: 20px;
+  background-color: rgba(30, 41, 59, 0.5);
+  border-radius: 7px;
+}
+
+.h-project h5 {
+  transition: ease-in-out 0.3s;
+}
+.h-project::selection {
+  color: #000000;
+  background-color: #0bd1d1;
+}
+.h-project:hover h5 {
+  color: #0bd1d1;
+}
+
+.arrow {
+  position: relative;
+  transition: ease-in-out 0.3s;
+}
+.h-project:hover .arrow .ico {
+  position: absolute;
+  left: 3px;
+  top: -10px;
+}
+
+@media screen and (max-width: 640px) {
+  .highlight {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .h-project {
+    display: inline;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 20px;
+    transition: ease-in-out 0.3s;
+    width: 100%;
+    max-width: 576px;
+  }
+}

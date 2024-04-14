@@ -1,0 +1,48 @@
+.home-container {
+  position: relative;
+  margin-left: 8%;
+  margin-right: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-container .banner {
+  top: 0;
+  position: sticky;
+  max-height: 100vh;
+  height: 100%;
+}
+.banner .box2 {
+  position: absolute;
+  top: 50%;
+}
+.banner .box3 {
+  position: absolute;
+  top: 85%;
+}
+
+@media screen and (max-width: 1024px) {
+  .home-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .home-container .banner {
+    position: static;
+    max-height: 100vh;
+    height: 100%;
+  }
+  .banner .box2 {
+    position: static;
+    margin-top: 2rem;
+  }
+  .banner .box3 {
+    position: static;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,15 @@
+.icons-name #left-arrow {
+  transition: ease-in-out 0.3s;
+}
+.icons-name:hover #left-arrow {
+  left: -7px;
+}
+
+p::selection,
+h4::selection,
+h2::selection,
+a::selection,
+Button::selection {
+  color: #000000;
+  background-color: #0bd1d1;
+}

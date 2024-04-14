@@ -1,0 +1,189 @@
+.skills-container {
+  margin-top: 6rem;
+}
+.skills-container:target {
+  background-color: red !important;
+}
+
+.skills-area {
+  column-gap: 5rem;
+}
+
+.skills-1 h2::selection,
+.skills-1 h5::selection,
+.navLink h4::selection,
+.skills-1 button::selection,
+.skills-1 p::selection {
+  background-color: #0bd1d1;
+  color: #000;
+}
+
+/* skills-1 */
+
+.skills-1 {
+  margin: 2rem 0;
+  padding: 20px;
+  transition: ease-in-out 0.25s;
+  width: 100%;
+  max-width: 576px;
+}
+
+.skills-1:hover {
+  padding: 20px;
+  background-color: rgba(30, 41, 59, 0.5);
+  border-radius: 7px;
+}
+.skills-1 .titles h2 {
+  font-weight: 400;
+  color: #5cdb95;
+  display: inline-block;
+  transition: ease-in-out 0.25s;
+  margin: 0;
+}
+.skills-1:hover .titles h2 {
+  font-weight: 400;
+  color: #0bd1d1;
+  display: inline-block;
+  transition: ease-in-out 0.25s;
+  margin: 0;
+}
+
+.skills-area .titles {
+  display: flex;
+  gap: 20px;
+  transition: ease-in-out 0.25s;
+}
+
+.skills-area .titles h5 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  font-size: 16px;
+  color: #64748b;
+  margin: 0;
+}
+
+.skills-area .titles h2 {
+  position: relative;
+  font-weight: 400;
+  font-size: 17px;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.skills-area .titles p {
+  text-align: start;
+  color: #94a3b8;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+  color: #94a3b8;
+}
+
+.skills-1 .titles button {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 8px 12px;
+  color: #0bd1d1;
+  background-color: #253535;
+}
+
+.btn-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills-1 #icon {
+  position: absolute;
+  transition: 0.25s;
+  right: -20px;
+  bottom: 3px;
+}
+.skills-1:hover #icon {
+  position: absolute;
+  right: -25px;
+  bottom: 7px;
+}
+
+.skills-container .resume {
+  text-align: start;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px !important;
+  color: #e2e8f0;
+  transition: ease-in-out 0.3s;
+}
+
+.navLink {
+  position: relative;
+}
+
+.navLink:hover .resume {
+  text-align: start;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px !important;
+  color: #0bd1d1;
+}
+.navLink a {
+  text-decoration: none;
+  font-size: 16px !important;
+}
+
+.navTo {
+  position: absolute;
+}
+
+.navLink #icon {
+  position: absolute;
+  right: -20px;
+  bottom: 3px;
+  transition: ease-in-out 0.3s;
+}
+.navLink:hover #icon {
+  position: absolute;
+  right: -25px;
+  bottom: 8px;
+}
+
+.titles img {
+  width: 500px;
+  height: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  .skills-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .skills-area .titles {
+    display: inline;
+    gap: 20px;
+    transition: ease-in-out 0.25s;
+  }
+
+  .skills-1 .titles button {
+    border-radius: 24px;
+    border: none;
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 5px 12px;
+    color: #0bd1d1;
+    background-color: #253535;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .skills-1 {
+    margin: 2rem 0;
+    padding: 20px;
+    transition: ease-in-out 0.25s;
+    width: 100%;
+    max-width: 800px;
+  }
+}

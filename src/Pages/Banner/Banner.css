@@ -1,0 +1,39 @@
+.banner-section {
+  text-align: start;
+}
+
+.banner-section h2 {
+  margin: 5rem 0 0 0;
+  font-weight: 700;
+  font-size: 48px;
+  color: #e2e8f0;
+}
+.banner-section h2::selection,
+.banner-section h4::selection,
+.banner-section p::selection {
+  background-color: #0bd1d1;
+  color: #000;
+}
+
+.banner-section h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #e2e8f0;
+  text-align: start;
+}
+.banner-section p {
+  color: #94a3b8;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 640px) {
+  .banner-section {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
